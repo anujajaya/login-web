@@ -1,0 +1,28 @@
+.sigh{
+  border-color: black;
+  background-color:blue;
+  margin-bottom: 880px;
+  margin-left: 20px;
+  width: 80px;
+}
+
+  .loginForm{
+    background-color: rgb(255, 255, 255,0.33);
+    box-shadow: 0px 8px 32px 0 rgb(0, 0, 255,0.33);
+    backdrop-filter: blur(3px);
+    padding: 0px 16px 16px 16px;
+    border-radius: 16px;
+  }
+  .socialloin{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    color: white;
+    font-size: 24px;
+    
+  }
+  .google{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+  }
