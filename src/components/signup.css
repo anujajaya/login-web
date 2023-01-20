@@ -1,3 +1,31 @@
-.loginpage{
-    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyLLzqhucZTUjj--P4T849xgjJ7mL_GXApew&usqp=CAU") ;
+body{
+    margin-top: 0px;
+}
+.main{
+    margin-top: 0px;
+}
+.sigdec{
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkgXWUMr_Vcw6KhaHLTy0SNSljgWrMIi5rFQ&usqp=CAU") ;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.wel{
+ margin-left: 300px;
+ font-weight: 600;
+ font-size:100px ;
+}
+.lohed{
+ margin-left: 200px;
+ margin-top: 50px;
+}
+.lode{
+   margin-top: 30px; 
+   margin-left: 300px;
+display: flex;
+flex-direction: row;
+/* justify-content: space-between; */
+
 }

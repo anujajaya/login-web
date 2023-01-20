@@ -1,12 +1,31 @@
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background:url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+  background-size: cover;
+}
+.para{
+   margin-top: 0px;
+   margin-bottom: 600px;
+   margin-left: 800px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 1000;
+   font-size: 150%;
+}
 .sigh{
   border-color: black;
-  background-color:blue;
+  background-color:green;
+  color: white;
   margin-bottom: 880px;
-  margin-left: 20px;
+  margin-left: 300px;
   width: 80px;
 }
 
-  .loginForm{
+  .logForm{
     background-color: rgb(255, 255, 255,0.33);
     box-shadow: 0px 8px 32px 0 rgb(0, 0, 255,0.33);
     backdrop-filter: blur(3px);
@@ -26,3 +45,16 @@
     width: 20px;
     cursor: pointer;
   }
+  .paraga{
+    /* margin-top: 0px; */
+    margin-bottom: 875px;
+    /* margin-right: 200px; */
+    margin-left: 10px;
+    text-decoration: none;
+    }
+    .li{
+      text-decoration: none;
+     color: rgb(63, 44, 167);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-weight: 900;
+    }
