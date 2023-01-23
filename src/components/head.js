@@ -57,15 +57,15 @@ function Head () {
         }
         else if(response.data.message=="failed"&& response.data.status===500){
           // message.error("please signup")
-          // popup('topRight')
+          popup('topRight')
         }
 
     })
     .catch((err)=>{console.log(err)})
   }
-  useEffect(()=>{
-    login()
-  },[])
+  // useEffect(()=>{
+  //   login();
+  // },[])
   
 
   return (
